@@ -287,7 +287,6 @@ local function walkToPos(pos)
 end
 
 
-getgenv().makeHub = loadstring(game:HttpGet('https://raw.githubusercontent.com/maddjester/MaddHub/main/MaddHub.lua'))
 
 repeat task.wait(1) until Svc.Ws.Gravity
 local gravReset, swimbeat
